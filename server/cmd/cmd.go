@@ -25,8 +25,8 @@ func Run() {
 		"token":            cfg.DeviceToken,
 		"registration_ids": []string{cfg.DeviceToken},
 		"notification": map[string]string{
-			"title": gofakeit.Animal(),
-			"body":  gofakeit.FarmAnimal(),
+			"title": gofakeit.BookTitle(),
+			"body":  gofakeit.AchAccount(),
 		},
 	}
 
